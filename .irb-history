@@ -1,0 +1,50 @@
+query(200)
+query("200")
+query("* marked: 200")
+query("* marked: Caption Text")
+query("label")
+query("*")
+query("UITableViewCell")
+exit
+start_test_server_in_background
+query("*")
+
+query("*")
+exit
+start_test_server_in_background
+query("* marked: Add Comment")
+query("UIText")
+query("UITextField")
+query("* marked: Like")
+query("Like")
+query("UITextField")
+exit
+start_test_server_in_background
+query("UITextField")
+query("* marked: test")
+query("UITextField")
+query("*")
+exit
+start_test_server_in_background
+query("UITextField")
+query("UITableViewCell")
+query("* marked: \ntest)
+query("* marked: \ntest")
+start_test_server_in_background
+query("* marked: \ntest")
+query("* marked: '\ntest'")
+query("* marked: 'test'")
+query("* marked: 'ntest'")
+query("* marked: "\ntest"")
+query("* marked: '\ntest'")
+query("*")
+query("view")
+query("UITextView")
+query("UITextView marked: '\ntest'")
+query("UITextView marked: '^\ntest'")
+query("UITextView")
+exit
+start_test_server_in_background
+query("*")
+query("*")
+exit
